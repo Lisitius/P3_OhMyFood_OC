@@ -1,0 +1,18 @@
+//abstract
+@use "abstract/mixins";
+@use "abstract/variables";
+
+//components
+@use "components/footer";
+@use "components/header";
+@use "components/buttons";
+
+//home
+@use "page/home/localization";
+@use "page/home/functioning";
+@use "page/home/restaurants";
+
+//menu
+@use "page/menu/head";
+@use "page/menu/menu";
+@use "page/menu/menuAnim";
