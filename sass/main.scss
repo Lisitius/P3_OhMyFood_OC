@@ -9,6 +9,7 @@
 
 //home
 @use "page/home/localization";
+@use "page/home/presentation";
 @use "page/home/functioning";
 @use "page/home/restaurants";
 
@@ -16,3 +17,9 @@
 @use "page/menu/head";
 @use "page/menu/menu";
 @use "page/menu/menuAnim";
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1200px;
+}
