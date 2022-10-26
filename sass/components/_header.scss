@@ -6,5 +6,8 @@ header {
   position: relative;
   padding-top: 10px;
   height: 60px;
-  font-family: v.$font-title;
+
+  & h1 {
+    font-family: v.$font-title;
+  }
 }
