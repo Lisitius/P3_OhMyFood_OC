@@ -1,0 +1,10 @@
+@use "../abstract/variables" as v;
+@use "../abstract/mixins" as m;
+
+header {
+  @include m.flex("", center, center);
+  position: relative;
+  padding-top: 10px;
+  height: 60px;
+  font-family: v.$font-title;
+}
