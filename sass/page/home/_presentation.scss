@@ -1,0 +1,22 @@
+@use "../../abstract/variables" as v;
+@use "../../abstract/mixins" as m;
+
+.presentation {
+  @include m.flex(column, center, center);
+  padding: 50px 20px;
+
+  & h2 {
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+    width: 70%;
+    font-size: 24px;
+  }
+
+  & p {
+    width: 90%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+  }
+}

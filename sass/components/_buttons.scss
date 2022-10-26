@@ -1,0 +1,28 @@
+@use "../abstract/variables" as v;
+@use "../abstract/mixins" as m;
+
+.btn-pink {
+  margin-top: 10px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 121, 218, 1) 0%,
+    rgba(147, 86, 220, 1) 100%
+  );
+  border: none;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+
+  &--explore {
+    padding: 14px 15px;
+  }
+
+  transition: all 200ms;
+
+  &:hover {
+    opacity: 0.8;
+    transform: scale(1.03);
+  }
+}
