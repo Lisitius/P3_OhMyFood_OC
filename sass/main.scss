@@ -6,6 +6,8 @@
 @use "components/footer";
 @use "components/header";
 @use "components/buttons";
+@use "components/card-guide";
+@use "components/card-restaurant";
 
 //general
 @use "components/general";
@@ -13,7 +15,7 @@
 //home
 @use "page/home/localization";
 @use "page/home/presentation";
-@use "page/home/functioning";
+@use "page/home/guide";
 @use "page/home/restaurants";
 
 //menu

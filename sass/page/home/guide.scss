@@ -1,12 +1,13 @@
 @use "../../abstract/variables" as v;
 @use "../../abstract/mixins" as m;
 
-.restaurant {
+.guide {
   @include m.flex(column, center, center);
-  padding: 20px;
+  padding: 30px;
 
   & h2 {
     width: 100%;
     @include m.flex("", start, start);
+    margin: 0 20px 20px 0;
   }
 }
