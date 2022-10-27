@@ -1,0 +1,95 @@
+@use "../abstract/variables" as v;
+@use "../abstract/mixins" as m;
+
+.restaurant {
+  &_card {
+    width: 100%;
+    display: flex;
+    margin: 15px 0;
+    padding: 5px;
+    border-radius: 15px;
+    position: relative;
+    max-height: 300px;
+    box-shadow: 0px 6px 6px 0px rgba(196, 196, 196, 0.5);
+
+    &:hover {
+      box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.47);
+    }
+
+    & a {
+      color: black;
+      text-decoration: none;
+      padding: 0;
+      margin: 0;
+      border-radius: 20px;
+      width: 100%;
+      position: relative;
+    }
+
+    & img {
+      width: 100%;
+      height: 155px;
+      object-fit: cover;
+      border-radius: 15px 15px 0 0;
+    }
+
+    &_body {
+      @include m.flex(row, space-between, center);
+      line-height: 5px;
+      padding: 10px 0 0 10px;
+
+      & h3 {
+        margin-top: 10px;
+        font-size: 17px;
+      }
+
+      & p {
+        font-size: 15px;
+        font-weight: 300;
+      }
+    }
+
+    &_like {
+      position: relative;
+      height: 40px;
+      padding-right: 20px;
+
+      &_empty {
+        font-size: 28px;
+        opacity: 1;
+      }
+      &_full {
+        @include m.gradientOne;
+        background-clip: text;
+        font-size: 14px;
+        position: absolute;
+        bottom: 20px;
+        left: 7px;
+        color: transparent;
+        transform: scale(0);
+        opacity: 1;
+      }
+
+      &:hover {
+        .restaurant_card_like_empty {
+          animation: 300ms vanishLike cubic-bezier(0.5, 0, 1, 0.5) both;
+        }
+
+        .restaurant_card_like_full {
+          animation: 300ms grownUpLike cubic-bezier(0.5, 0, 1, 0.5) both;
+        }
+      }
+    }
+
+    &_new {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      color: rgb(32, 139, 117);
+      background-color: v.$tertiary-color;
+      border-radius: 2px;
+      padding: 7px 10px;
+      font-size: 14px;
+    }
+  }
+}

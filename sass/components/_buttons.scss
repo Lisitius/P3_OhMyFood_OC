@@ -3,11 +3,7 @@
 
 .btn-pink {
   margin-top: 10px;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 121, 218, 1) 0%,
-    rgba(147, 86, 220, 1) 100%
-  );
+  @include m.gradientOne;
   border: none;
   border-radius: 25px;
   font-size: 14px;
