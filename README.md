@@ -11,7 +11,7 @@ Ohmyfood! est une jeune startup qui voudrait s'imposer sur le marché de la rest
 ## Language utilisé
 
 HTML
-SCSS compiler avec Live Sass Compiler sous VsCode
+SCSS (npm run sass)
 
 ### Adresse du site
 
