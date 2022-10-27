@@ -11,4 +11,10 @@ header {
     font-family: v.$font-title;
     font-size: 28px;
   }
+
+  & i {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+  }
 }

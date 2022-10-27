@@ -53,6 +53,11 @@ header h1 {
   font-family: "Shrikhand", sans-serif;
   font-size: 28px;
 }
+header i {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
 
 .btn-pink {
   margin-top: 10px;
@@ -197,12 +202,11 @@ header h1 {
 
 * {
   font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
 }
 
 body {
   margin: 0 auto;
-  padding: 0;
-  max-width: 1200px;
 }
 
 .localization {
@@ -275,6 +279,67 @@ body {
   display: flex;
   justify-content: start;
   align-items: start;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+}
+.main img {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+}
+.main .titleMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  border-radius: 35px 35px 0 0;
+  z-index: 100;
+  margin: -30px;
+  background-color: white;
+}
+.main .titleMenu_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.main .titleMenu_text h2 {
+  font-family: "Shrikhand", sans-serif;
+  margin: 0;
+}
+.main .titleMenu_text .likeMenu {
+  padding-top: 5px;
+}
+.main .titleMenu_text .likeMenu .likeFull {
+  bottom: 10px;
+  left: 7px;
+}
+.main .titleMenu .menu {
+  width: 100%;
+}
+.main .titleMenu .menu h2 {
+  position: relative;
+  font-weight: 300;
+  font-size: 18px;
+}
+.main .titleMenu .menu h2::before {
+  padding-top: 10px;
+  position: absolute;
+  left: 0;
+  top: 26px;
+  height: 0;
+  width: 40px;
+  content: "";
+  border-top: 3px solid #99e2d0;
 }
 
 /*# sourceMappingURL=style.css.map */
