@@ -365,7 +365,7 @@ body {
   align-items: center;
   margin: 15px 0 15px 0;
   border-radius: 15px;
-  height: 80px;
+  height: 70px;
   padding: 0;
   background-color: #fff;
   width: 100%;
@@ -377,7 +377,7 @@ body {
 }
 .menu_card_body h3 {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
   overflow: hidden;
   text-overflow: ellipsis;
   margin: 6px;
@@ -398,7 +398,7 @@ body {
   justify-content: flex-end;
   align-items: flex-end;
   flex-grow: 1;
-  padding-right: 40px;
+  padding-right: 15px;
   margin-top: 30px;
 }
 .menu_card_price p {
