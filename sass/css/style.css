@@ -239,6 +239,11 @@ body {
   font-weight: 700;
   font-size: 15px;
 }
+.localization form input:focus,
+.localization form textarea:focus,
+.localization form select:focus {
+  outline: none;
+}
 
 .presentation {
   display: flex;
@@ -417,6 +422,57 @@ body {
   align-items: center;
   animation: check 1s ease;
   animation-fill-mode: both;
+}
+
+@media (min-width: 768px) {
+  .guide__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .restaurant {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .restaurant_card {
+    width: 48%;
+  }
+  .c_footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 1000px) {
+  .main .titleMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+  }
+  .main .titleMenu .btn-pink--buy {
+    margin: auto;
+  }
+  .main .titleMenu .menu {
+    width: 30%;
+  }
+}
+@media (min-width: 1200px) {
+  .guide {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .guide__card {
+    width: 30%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
