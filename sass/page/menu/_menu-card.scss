@@ -1,2 +1,65 @@
 @use "../../abstract/variables" as v;
 @use "../../abstract/mixins" as m;
+
+.menu {
+  &_card {
+    @include m.flex("", space-between, center);
+    margin: 15px 0 15px 0;
+    border-radius: 15px;
+    height: 80px;
+    padding: 0;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 5px 5px 15px 2px rgba(196, 196, 196, 0.95);
+
+    &_body {
+      padding: 15px;
+      overflow: hidden;
+      & h3 {
+        font-size: 16px;
+        font-weight: 500;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin: 6px;
+        white-space: nowrap;
+        position: relative;
+      }
+      & p {
+        font-size: 14px;
+        font-weight: 300;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin: 6px;
+        white-space: nowrap;
+        position: relative;
+      }
+    }
+
+    &_price {
+      @include m.flex("", flex-end, flex-end);
+      flex-grow: 1;
+      padding-right: 40px;
+      margin-top: 30px;
+
+      & p {
+        font-weight: 700;
+      }
+    }
+
+    &_anim {
+      display: none;
+    }
+
+    &:hover {
+      .menu_card_anim {
+        background-color: v.$tertiary-color;
+        color: white;
+        border-radius: 0 15px 15px 0;
+        height: 100%;
+        @include m.flex("", center, center);
+        animation: check 1s ease;
+        animation-fill-mode: both;
+      }
+    }
+  }
+}
