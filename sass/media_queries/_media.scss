@@ -1,0 +1,48 @@
+@use "../abstract/variables" as v;
+@use "../abstract/mixins" as m;
+
+@media (min-width: 768px) {
+  .guide {
+    &__card {
+      @include m.flex("", center, center);
+    }
+  }
+
+  .restaurant {
+    @include m.flex(row, space-between, center);
+    flex-wrap: wrap;
+    &_card {
+      width: 48%;
+    }
+  }
+
+  .c_footer {
+    margin-top: 30px;
+    @include m.flex("", center, center);
+  }
+}
+
+@media (min-width: 1000px) {
+  .main .titleMenu {
+    @include m.flex(row, space-between, baseline);
+    flex-wrap: wrap;
+
+    .btn-pink--buy {
+      margin: auto;
+    }
+  }
+
+  .main .titleMenu .menu {
+    width: 30%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .guide {
+    @include m.flex(row, space-between, center);
+    flex-wrap: wrap;
+    &__card {
+      width: 30%;
+    }
+  }
+}
