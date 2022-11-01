@@ -6,7 +6,7 @@
     @include m.flex("", space-between, center);
     margin: 15px 0 15px 0;
     border-radius: 15px;
-    height: 80px;
+    height: 70px;
     padding: 0;
     background-color: #fff;
     width: 100%;
@@ -17,7 +17,7 @@
       overflow: hidden;
       & h3 {
         font-size: 16px;
-        font-weight: 500;
+        font-weight: 700;
         overflow: hidden;
         text-overflow: ellipsis;
         margin: 6px;
@@ -38,7 +38,7 @@
     &_price {
       @include m.flex("", flex-end, flex-end);
       flex-grow: 1;
-      padding-right: 40px;
+      padding-right: 15px;
       margin-top: 30px;
 
       & p {
