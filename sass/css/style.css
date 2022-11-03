@@ -511,6 +511,16 @@ body {
   .restaurant_card {
     width: 48%;
   }
+  .main .titleMenu .restaurant_card_like {
+    padding-right: 20px;
+  }
+  .main .titleMenu .restaurant_card_like .likeEmpty {
+    padding-right: 8px;
+  }
+  .main .titleMenu .restaurant_card_like .likeFull {
+    padding-right: 4px;
+    left: 10px;
+  }
   .c_footer {
     margin-top: 30px;
     display: flex;
@@ -526,8 +536,22 @@ body {
     align-items: baseline;
     flex-wrap: wrap;
   }
+  .main .titleMenu .restaurant_card_like {
+    padding-right: 20px;
+  }
+  .main .titleMenu .restaurant_card_like .likeEmpty {
+    padding-right: 8px;
+  }
+  .main .titleMenu .restaurant_card_like .likeFull {
+    padding-right: 4px;
+    left: 9px;
+  }
+  .main .titleMenu .menu {
+    margin-bottom: 20px;
+  }
   .main .titleMenu .btn-pink--buy {
     margin: auto;
+    width: 30%;
   }
   .main .titleMenu .menu {
     width: 30%;

@@ -16,6 +16,21 @@
     }
   }
 
+  .main .titleMenu {
+    .restaurant_card_like {
+      padding-right: 20px;
+
+      .likeEmpty {
+        padding-right: 8px;
+      }
+
+      .likeFull {
+        padding-right: 4px;
+        left: 10px;
+      }
+    }
+  }
+
   .c_footer {
     margin-top: 30px;
     @include m.flex("", center, center);
@@ -27,8 +42,26 @@
     @include m.flex(row, space-between, baseline);
     flex-wrap: wrap;
 
+    .restaurant_card_like {
+      padding-right: 20px;
+
+      .likeEmpty {
+        padding-right: 8px;
+      }
+
+      .likeFull {
+        padding-right: 4px;
+        left: 9px;
+      }
+    }
+
+    .menu {
+      margin-bottom: 20px;
+    }
+
     .btn-pink--buy {
       margin: auto;
+      width: 30%;
     }
   }
 
