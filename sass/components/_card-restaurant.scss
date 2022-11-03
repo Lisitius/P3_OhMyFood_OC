@@ -63,6 +63,7 @@
       &_full {
         @include m.gradientOne;
         background-clip: text;
+        -webkit-background-clip: text;
         font-size: 14px;
         position: absolute;
         bottom: 20px;
