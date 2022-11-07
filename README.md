@@ -2,17 +2,25 @@
 <img src="https://blog.openclassrooms.com/en/wp-content/uploads/sites/4/2018/11/Blog_logo.jpg" alt="Logo Openclassrooms" width="350" height="140" style="text-align:center"/>
 </center>
 
-# Partie 3 : Dynamisez une page web avec des animations CSS
+# Project 3: Dynamize a web page with CSS animations
 
-Vous venez d’être recruté chez Ohmyfood!, en tant que développeur junior. Félicitations !
+You have just been recruited at Ohmyfood!, as a junior developer. Congratulation !
 
-Ohmyfood! est une jeune startup qui voudrait s'imposer sur le marché de la restauration. L'objectif est de développer un site 100% mobile qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée. Finis, les temps d'attente au restaurant !
+Ohmyfood! is a young startup that would like to impose itself on the catering market. The goal is to develop a 100% mobile site that lists the menus of gourmet restaurants. In addition to traditional reservation systems, customers will be able to compose their meal menu so that the dishes are ready when they arrive. No more waiting times at the restaurant!
 
-## Language utilisé
+## Language
 
-HTML
-SCSS (npm run sass)
+- HTML
+- SCSS (npm run sass)
 
-### Adresse du site
+### Try it
 
-Projet non terminée
+- https://lisitius.github.io/P3_OhMyFood_OC
+
+### Clone it
+
+```terminal
+git clone https://github.com/Lisitius/P3_OhMyFood_OC.git
+```
+
+###
