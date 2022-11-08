@@ -11,7 +11,7 @@
     background-color: #fff;
     width: 100%;
     @include m.greyShadow;
-    animation: menuAppear 2s ease 1s 1 normal forwards;
+    animation: menuAppear 1s ease 1s 1 normal forwards;
     opacity: 0;
 
     &_body {
