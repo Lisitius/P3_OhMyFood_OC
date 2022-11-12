@@ -11,7 +11,13 @@ Ohmyfood! is a young startup that would like to impose itself on the catering ma
 ## Language
 
 - HTML
-- SCSS (npm run sass)
+- SCSS
+
+### Launch sass
+
+```terminal
+- npm run sass
+```
 
 ### Try it
 
