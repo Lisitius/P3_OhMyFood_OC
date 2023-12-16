@@ -21,7 +21,7 @@ Ohmyfood! is a young startup that would like to impose itself on the catering ma
 
 ### Try it
 
-- [https://lisitius.github.io/P3_OhMyFood_OC](https://splendorous-cheesecake-69327e.netlify.app/)
+- [https://splendorous-cheesecake-69327e.netlify.app/](https://splendorous-cheesecake-69327e.netlify.app/)
 
 ### Clone it
 
